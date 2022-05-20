@@ -2,6 +2,7 @@
 #include <conio.h>
 using namespace std;
 int main() 
+
 {
     //تعریف متغیر
     int number1, number2, jam, tafrigh, zarb, taghsim;
