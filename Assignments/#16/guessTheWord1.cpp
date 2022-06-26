@@ -8,9 +8,7 @@ bool checkAnswer(char ans[], char c, int corr[]);
 void coutArr(char c[], int i[]);
 
 int main()
-{
-    //word = shop
-    
+{//word = shop
     char answer[5] = {'s', 'h', 'o', 'p'}, in;
 
     int counter = 0, correct[5] = {0}, attempts = 10;
@@ -19,7 +17,7 @@ int main()
     while (T == true)
     {
         done = true;
-        cout << "\nattempt number " << counter << " :";
+        cout << "\nattempt number " << counter+1 << " :";
         cin >> in;
         if (checkAnswer(answer, in, correct))
         {
