@@ -13,8 +13,8 @@ int main()
     {
         cout << array[i];
     }
-    
-    
+    cout << "\n"
+         << array;
 
     // getch();
     return 0;
