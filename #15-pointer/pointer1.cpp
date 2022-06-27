@@ -6,9 +6,11 @@ using namespace std;
 int main()
 {
     int *p, x = 10;
-    p=&x;
+    p = &x;
+    
     *p = 25;
-    cout << *p;
+    cout << *p << "\n";
+    cout << x;
     //_getch();
     return 0;
 }

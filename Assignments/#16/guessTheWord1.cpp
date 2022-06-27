@@ -58,7 +58,7 @@ int main()
         }
     }
 
-    //_getch();
+    _getch();
     return 0;
 }
 bool checkAnswer(char ans[], char c, int corr[])
